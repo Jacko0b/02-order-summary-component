@@ -9,8 +9,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Order summary card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+ <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -19,20 +19,28 @@
   </style>
 </head>
 <body>
+  <main>
+    <img id="heroImage" src="./images/illustration-hero.svg" alt="heroImage">
+    <h1>
+    Order Summary
+    </h1> 
+    <p id="heroText">
+      You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!
+    </p>
+    <div id="planSelection">
+      <img id="icon_music" src="./images/icon-music.svg" alt="musicIcon"> 
+      <div id="planText">
+        <h2>Annual Plan</h2>
+        <p>$59.99/year</p>
+      </div>
+      <a id="buttonChangePlan" href="#">Change</a>
+    </div>
 
-  Order Summary
+    <a id="buttonPayment" href="#">Proceed to Payment</a>
+    <a id="buttonCancelOrder" href="#">Cancel Order</a>
+  </main>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="www.linkedin.com/in/jakub-sobota-">Jakub Sobota</a>.
